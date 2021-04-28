@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="crimeform.css" />
+    <title>Crime Report Form</title>
+  </head>
+  <body>
+    <h2>Crime Reporting System</h2>
+    <section id="main-form">
+      <h4>Please fill the form</h4>
+      <h6><em>Keep in mind that all information shared will remain confidential</em></h6>
+      <h6>Personal Information</h6>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-floating">
+            <input
+              class="form-control"
+              id="floatingFirstName"
+              placeholder="First Name"
+              required
+            />
+            <label for="floatingFirstName">First Name</label>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-floating">
+            <input
+              class="form-control"
+              id="floatingLastName"
+              placeholder="Last Name"
+              required
+            />
+            <label for="floatingLastName">Last Name</label>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-floating">
+            <select
+              class="form-select"
+              id="floatingGender"
+              aria-label="Floating label select example"
+            >
+              <option selected>Select Gender</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Other</option>
+            </select>
+            <label for="floatingGender">Gender</label>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-floating">
+            <input
+              class="form-control"
+              id="floatingMobileNo"
+              placeholder="Mobile No"
+              required
+            />
+            <label for="floatingMobileNo">Phone Number</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-floating mb-3">
+        <input
+          type="email"
+          class="form-control"
+          id="floatingInput"
+          placeholder="name@example.com"
+        />
+        <label for="floatingInput">Email address</label>
+      </div>
+      <h6>Crime Information</h6>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-floating">
+            <input
+              type="datetime-local"
+              class="form-control"
+              id="floatingDateTime"
+              placeholder="Date and TIme"
+              required
+            />
+            <label for="floatingDateTime">Date and Time</label>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-floating">
+            <input
+              class="form-control"
+              id="floatingAptNo"
+              placeholder="Apartment/House no"
+              required
+            />
+            <label for="floatingAptNo">Apartment Number and Name</label>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-floating">
+            <input
+              class="form-control"
+              id="floatingStreetName"
+              placeholder="Street Name"
+              required
+            />
+            <label for="floatingStreetName">Street name</label>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-floating">
+            <input
+              class="form-control"
+              id="floatingArea"
+              placeholder="Area"
+              required
+            />
+            <label for="floatingArea">Area</label>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-floating">
+            <input
+              class="form-control"
+              style="color: black; background-color: rgb(250, 175, 36)"
+              id="floatingCity"
+              placeholder="City"
+              value="Bangalore"
+              disabled
+            />
+            <label for="floatingCity">City</label>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="form-floating">
+            <select
+              class="form-select"
+              id="floatingCrimeType"
+              aria-label="Floating label select example"
+            >
+              <option selected>Select Type of Crime</option>
+              <option value="1">Murder</option>
+              <option value="2">Robbery</option>
+              <option value="3">Domestic Violence</option>
+              <option value="4">Cyber Bullying</option>
+              <option value="5">Missing Child</option>
+              <option value="6">Missing Family/Friends</option>
+              <option value="7">Harrassment</option>
+              <option value="8">Neighbour Disturbance</option>
+              <option value="9">Gambling/Drugs</option>
+              <option value="10">Money Embezzlement</option>
+              <option value="11">Hate Crimes/Speech</option>
+            </select>
+            <label for="floatingCrimeType">Type of Crime</label>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Suspect Deescription"
+              id="floatingSusDec"
+              style="height: 180px"
+            ></textarea>
+            <label for="floatingSusDec">Suspect Description</label>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Child/Family/Friend"
+              id="floatingMissing"
+              style="height: 180px"
+            ></textarea>
+            <label for="floatingMissing"
+              >In case of missing child/friend/family, describe the
+              victim</label
+            >
+          </div>
+        </div>
+        <h6>
+          File Uploading is optional. If you have any photos or evidence file,
+          then please upload
+        </h6>
+        <div class="input-group mb-3">
+          <input type="file" class="form-control" id="inputGroupFile02" />
+          <!-- <label class="input-group-text" for="inputGroupFile02">Upload</label> -->
+        </div>
+      
+      <div class="col-md-12">
+        <div class="form-floating">
+          <textarea
+            class="form-control"
+            placeholder="Extra Comments"
+            id="floatingExtraCom"
+            style="height: 180px"
+          ></textarea>
+          <label for="floatingSusDec">Extra Comments</label>
+        </div>
+      </div>
+    </div>
+    <div class="d-grid gap-2">
+      <button class="btn" type="button">Submit</button>
+      <h4>Thank you for your cooperation</h4>
+  
+    </div>
+    </section>
+    <footer id="footer">
+      <p> ©  Copyright 2021</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+ 
+</html>
