@@ -49,8 +49,12 @@ body{
 }
 #login{
     background-color: transparent;
-    border-color: black;
+    border-color:white;
     text-decoration:black;
+    margin-top: 30px;
+}
+.form-control{
+    background-color: transparent;
 }
 
 /* @media only screen and (max-width: 678px){
