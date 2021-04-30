@@ -5,69 +5,65 @@ body {
   height: 100vh; */
   background-size: 120%;
   position: absolute;
-  
 }
 h2 {
   color: orange;
   margin: 50px 0 20px 30px;
+  margin-left: 170px;
 }
-h4, h6
-{
-    color: orange;
-    margin: 35px 0 10px 4px;
+h4,
+h6 {
+  color: orange;
+  margin: 35px 0 10px 4px;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
-a:hover{
-  color:whitesmoke;
+a:hover {
+  color: whitesmoke;
 }
 #main-form {
   margin: 70px auto 30px 170px;
   width: 45%;
   color: white;
   margin-bottom: 40px;
-  
 }
-.form-control,.form-select{
+.form-control,
+.form-select {
   background-color: rgba(255, 145, 0, 0.986);
   opacity: 0.7;
   max-height: 55px;
   padding-bottom: 20px;
-  font-size: 0.50cm;
+  font-size: 0.5cm;
   color: white;
 }
-.form-select{
-    font-size: 0.38cm;
-   
+.form-select {
+  font-size: 0.38cm;
 }
-.form-floating{
-    padding-bottom: 30px;
+.form-floating {
+  padding-bottom: 30px;
 }
-label
-{
-    color: white;
+label {
+  color: white;
 }
-#floatingSusDec , #floatingMissing, #floatingExtraCom
-{
-   max-height: 180px;
+#floatingSusDec,
+#floatingMissing,
+#floatingExtraCom {
+  max-height: 180px;
 }
-.btn
-{
-    background-color: orange;
-    color:white;
-    font-size: large;
+.btn {
+  background-color: orange;
+  color: white;
+  font-size: large;
 }
-#footer{
-    padding-bottom: 1px;
-    padding-top: 1px;
-    text-align: center;
-    color: white;
-    background-color: black;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 0;
+#footer {
+  padding-bottom: 1px;
+  padding-top: 1px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0;
 }
-
-
