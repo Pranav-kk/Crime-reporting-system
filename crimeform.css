@@ -16,6 +16,13 @@ h4, h6
     color: orange;
     margin: 35px 0 10px 4px;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color:whitesmoke;
+}
 #main-form {
   margin: 70px auto 30px 170px;
   width: 45%;

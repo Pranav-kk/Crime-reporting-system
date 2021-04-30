@@ -26,6 +26,13 @@ body{
     font-weight: lighter;
 
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:whitesmoke;
+}
 
 .form-container{
     height: 400px;

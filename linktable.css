@@ -9,6 +9,13 @@ h1{
 h3{
     margin:10px 0 0 80px
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:whitesmoke;
+}
 #Table{
     margin: 20px auto 10px auto;
     width: 70%;
