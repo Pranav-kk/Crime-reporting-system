@@ -11,35 +11,39 @@ body{
     
 }
 #h1{
+    margin-top: 10px;
     text-align: center;
     align-items: center;
-    color:rgb(0, 0, 0);
+    color:white;
     font-style: oblique;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
+    font-weight: bolder;
 }
 #h2{
     margin-top: 10px;
     text-align: center;
     align-items: center;
-    color:black;
-    font-weight: lighter;
+    color:white;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: -30px;
 
 }
 a{
     text-decoration: none;
-    color: white;
+    color:white;
 }
 a:hover{
     color:whitesmoke;
 }
 
 .form-container{
+    background-color: rgba(255,255,255, 0.2);
     height: 400px;
     width: 25%;
     align-items: left;
     margin-top: 50px; 
-    margin-left: -500px;
+    margin-left: -400px; 
     position: absolute;
     top: 15vh;
     
@@ -50,15 +54,20 @@ a:hover{
 .mb-3
 {
     margin-top: 35px;
+    
 }
 .form-label{
-    color:black;
+    color:white;
+    font-size: large;
 }
 #login{
     background-color: transparent;
     border-color:white;
-    text-decoration:black;
+    text-decoration:white;
     margin-top: 30px;
+    font-size: large;
+    background-color: rgb(126, 117, 117);
+    
 }
 .form-control{
     background-color: transparent;
