@@ -5,9 +5,11 @@ body{
 }
 h1{
     margin: 40px 0 10px 80px;
+    color:white;
 }
 h3{
-    margin:10px 0 0 80px
+    margin:10px 0 0 80px;
+    color:white;
 }
 a{
     text-decoration: none;
@@ -24,6 +26,9 @@ a:hover{
 .table{
     opacity: 0.9;
 }
+.tabletop{
+    background-color:gray;
+}
 .form-floating{
     width:40%;
     
@@ -35,8 +40,4 @@ a:hover{
     background-color: rgb(214, 214, 214);
     max-height: 55px;
     opacity: 0.8;
-}
-#logout{
-    background-color: transparent;
-    border-color: white;
 }
