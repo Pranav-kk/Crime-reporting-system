@@ -36,3 +36,7 @@ a:hover{
     max-height: 55px;
     opacity: 0.8;
 }
+#logout{
+    background-color: transparent;
+    border-color: white;
+}
